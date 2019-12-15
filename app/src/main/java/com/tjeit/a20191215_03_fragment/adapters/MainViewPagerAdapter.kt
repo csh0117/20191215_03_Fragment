@@ -5,12 +5,14 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import com.tjeit.a20191215_03_fragment.fragments.FirstFragment
 import com.tjeit.a20191215_03_fragment.fragments.SecondFragment
+import com.tjeit.a20191215_03_fragment.fragments.ThirdFragment
 
 class MainViewPagerAdapter(fm:FragmentManager) : FragmentPagerAdapter(fm) {
     override fun getItem(position: Int): Fragment {
        return when (position) {
            0 -> {FirstFragment()}
-           else -> {SecondFragment()}
+           1 -> {SecondFragment()}
+           else -> {ThirdFragment()}
        }
 //       JAVA 문법에 가까움
 //        if (position == 0) {
@@ -21,6 +23,6 @@ class MainViewPagerAdapter(fm:FragmentManager) : FragmentPagerAdapter(fm) {
     }
 
     override fun getCount(): Int {
-        return 2
+        return 3
     }
 }

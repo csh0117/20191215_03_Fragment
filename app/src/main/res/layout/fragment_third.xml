@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="3번 프래그먼드"
+        android:textSize="25sp" />
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"-->
+<!--        android:layout_marginTop="10dp">-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="16sp"-->
+<!--            android:text="이름" />-->
+<!--        <EditText-->
+<!--            android:id="@+id/nameEdt"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:singleLine="true"-->
+<!--            android:hint="이름을 입력하세요" />-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"-->
+<!--        android:layout_marginTop="10dp">-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="16sp"-->
+<!--            android:text="닉네임" />-->
+<!--        <EditText-->
+<!--            android:id="@+id/nickNameEdt"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:singleLine="true"-->
+<!--            android:hint="닉네임 입력" />-->
+<!--    </LinearLayout>-->
+<!--    <Button-->
+<!--        android:id="@+id/okBtn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:textSize="18sp"-->
+<!--        android:text="등록" />-->
+
+</LinearLayout>
